@@ -1,0 +1,44 @@
+name: backend
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=4.5=1_gnu
+  - bidict=0.21.2=pyhd3eb1b0_0
+  - ca-certificates=2021.10.26=h06a4308_2
+  - certifi=2021.10.8=py37h06a4308_0
+  - cffi=1.14.6=py37h400218f_0
+  - click=8.0.3=pyhd3eb1b0_0
+  - cryptography=35.0.0=py37hd23ed53_0
+  - dataclasses=0.8=pyh6d0b6a4_7
+  - dnspython=1.16.0=py37_0
+  - eventlet=0.30.2=pyhd3eb1b0_0
+  - flask=2.0.2=pyhd3eb1b0_0
+  - flask-socketio=5.1.0=pyhd3eb1b0_0
+  - greenlet=1.1.1=py37h295c915_0
+  - gunicorn=20.1.0=py37h06a4308_0
+  - itsdangerous=2.0.1=pyhd3eb1b0_0
+  - jinja2=3.0.2=pyhd3eb1b0_0
+  - ld_impl_linux-64=2.35.1=h7274673_9
+  - libffi=3.3=he6710b0_2
+  - libgcc-ng=9.3.0=h5101ec6_17
+  - libgomp=9.3.0=h5101ec6_17
+  - libstdcxx-ng=9.3.0=hd4cf53a_17
+  - markupsafe=2.0.1=py37h27cfd23_0
+  - ncurses=6.3=h7f8727e_2
+  - openssl=1.1.1l=h7f8727e_0
+  - pip=21.2.2=py37h06a4308_0
+  - pycparser=2.21=pyhd3eb1b0_0
+  - pyopenssl=21.0.0=pyhd3eb1b0_1
+  - python=3.7.11=h12debd9_0
+  - python-engineio=4.1.0=pyhd3eb1b0_0
+  - python-socketio=5.3.0=pyhd3eb1b0_0
+  - readline=8.1=h27cfd23_0
+  - setuptools=58.0.4=py37h06a4308_0
+  - six=1.16.0=pyhd3eb1b0_0
+  - sqlite=3.36.0=hc218d9a_0
+  - tk=8.6.11=h1ccaba5_0
+  - werkzeug=2.0.2=pyhd3eb1b0_0
+  - wheel=0.37.0=pyhd3eb1b0_1
+  - xz=5.2.5=h7b6447c_0
+  - zlib=1.2.11=h7b6447c_3

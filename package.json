@@ -1,0 +1,21 @@
+{
+    "name": "template-flask-react-socketio",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "install:dev": "npm-run-all install:web install:api",
+        "install:api": "cd api && conda env create -f environment.yml && cd ..",
+        "install:web": "cd web && npm install && cd ..",
+        "start:dev": "concurrently --kill-others \"npm run start:api\" \"npm run start:web\"",
+        "start:web": "cd web && npm start",
+        "start:api": "cd api && conda run -n lofi-backend python app.py",
+        "build:docker": "docker-compose -f docker/docker-compose.yml build",
+        "start:docker": " docker-compose -f docker/docker-compose.yml up -d",
+        "stop:docker": "docker-compose -f docker/docker-compose.yml down"
+    },
+    "devDependencies": {
+        "concurrently": "^6.4.0",
+        "npm-run-all": "^4.0.2",
+        "opn-cli": "^3.1.0"
+    }
+}
