@@ -1,9 +1,9 @@
 # A template for working with react, flask & socketio
 ## Purpose
 This repo contains a simple template for starting projects using the following stack :
-- React & Typescript on the front-end
-- Flask & socketio on the backend
-- Docker with docker-compose and a gunicorn web server for deployment purposes.
+- **React** & **Typescript** on the front-end
+- **Flask** & **socketio** on the backend
+- Docker with **docker-compose** and a **gunicorn** web server + **nginx** for deployment purposes.
 
 ## Installation
 This project requires a working conda installation for the backend as well as npm for the client. For deployment docker and docker-compose are also needed.
